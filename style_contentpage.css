@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+	-webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none; 
+    -ms-user-select:none;
+    user-select:none;
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+	
+}
+
+
+body {
+  color: #FFF;
+  background-color: #FD940A;
+  background-image: -webkit-radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
+  background-image: radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
+}
+
+
+
+.fail h1 {
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding-top: 250px;
+	padding-bottom: 100px;
+}
+
+
+.buttons {
+	text-align: center;
+	z-index: 99;
+}
+
+.buttons #a1 {
+	padding-right: 40px;
+	font-family: 'roboto', sans-serif;
+}
+
+.buttons #a2 {
+	padding-left: 40px;
+	font-family: 'roboto', sans-serif;
+}
+
+.button1 {
+    background-color: #FD940A; 
+    border-radius: 15px;
+	border: 2px solid white;
+    color: white;
+    padding: 20px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #FF7200;
+    color: white;
+	border: 2px solid white;
+	border-radius: 15px;
+}
+
+.button2 {
+   background-color: #FD940A; 
+    border-radius: 15px;
+	border: 2px solid white;
+    color: white;
+    padding: 20px 58px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #FF7200;
+    color: white;
+	border: 2px solid white;
+	border-radius: 15px;
+}
+
+
+
+
+/* KNAP LOG UD */ 
+
+.button_logout {
+	float:left;
+	margin-left: 5%;
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+.header {
+	font-family: 'roboto', sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.header2 {
+	font-family: 'roboto', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* CLOCK STYLE */
+
+.clock {
+	padding-top: 200px;
+	width: 100%;
+}
+
+
+#clock {
+        	position: relative;
+        	width: 600px;
+        	height: 600px;
+        	margin: 40px auto;
+        	background: url(images/clockface2.png);
+        	list-style: none;
+        	}
+        
+        #sec, #min, #hour {
+        	position: absolute;
+        	width: 30px;
+        	height: 600px;
+        	top: 0px;
+        	left: 285px;
+        	}
+        
+        #sec {
+        	background: url(images/sechand.png);
+        	z-index: 3;
+           	}
+           
+        #min {
+        	background: url(images/minhand.png);
+        	z-index: 2;
+           	}
+           
+        #hour {
+        	background: url(images/hourhand.png);
+        	z-index: 1;
+           	}
+           	
+       
+
+
+
+

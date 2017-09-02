@@ -1,0 +1,374 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+* {
+	outline: none;
+}
+
+body {
+	
+  color: #FFF;
+  background-color: #FD940A;
+  background-image: -webkit-radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
+  background-image: radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
+	font-weight:300;
+	text-align: left;
+	text-decoration: none;
+	height: 100vh;
+	font-family: 'roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+/* KNAP TILABGE */ 
+
+.button_wrapper {
+	float:left;
+}
+
+.button_back {
+    background-color: #FD940A; 
+    border-radius: 15px;
+	border: 2px solid white;
+    color: white;
+    padding: 13px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.85em;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button_back:hover {
+    background-color: #FF7200;
+    color: white;
+	border: 2px solid white;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+/* ECHO */
+
+
+.echo_registrering {
+	width: 450px;
+	height: 245px;
+	margin: 50px auto;
+	background: white;
+	border-radius: 15px;
+	box-shadow: 15px 15px 5px #A65D00;
+}
+
+.echo_content h1, p {
+	font-family: 'roboto', sans-serif;
+	padding: 40px 30px 30px 30px;
+	color: black;
+}
+
+.echo_content h1 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+
+.echo_content p {
+	margin-top: -40px;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.echo_content button {
+	padding: 18px 76px;
+	font-family: 'roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 1.1em;
+	color: #fff;
+	background: #FF7200;
+	border: 2px solid #FFB579;
+	border-radius: 15px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.echo_content button:hover {
+	background: #DD6200;
+	border: 2px solid white;
+}
+
+.echo_content button:focus {
+	position: relative;
+	bottom: -3px;
+	background: #DD6200;
+	-webkit-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	-moz-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+}
+
+
+
+
+
+
+
+/* ELSE */
+
+
+.else_registrering {
+	width: 450px;
+	height: 215px;
+	margin: 50px auto;
+	background: white;
+	border-radius: 15px;
+	box-shadow: 15px 15px 5px #A65D00;
+}
+
+.else_content h1, h3, h2 {
+	font-family: 'roboto', sans-serif;
+	padding: 40px 30px 30px 30px;
+	color: #FF2121;
+}
+
+.else_content h1 {
+	font-size: 1.3em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+
+.else_content h3 {
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.else_content h2 {
+	font-size: 1.4em;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* REGISTRERING FORM */
+
+
+#wrapper {
+	/* Center wrapper perfectly */
+	width: 300px;
+	height: 400px;
+	margin: 90px auto;
+}
+
+
+.registrering-form {
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	background: white;
+	border-radius: 15px;
+	box-shadow: 15px 15px 5px #A65D00;
+	text-align: center;
+	
+}
+
+
+
+
+
+
+
+
+
+/* FORM HEADER */
+
+.registrering-form .header {
+	padding: 40px 30px 30px 30px;
+}
+
+.registrering-form .header h1 {
+	font-family: 'roboto', sans-serif;
+	font-weight: bold;
+	font-size: 1.6em;
+	line-height: 34px;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.registrering-form .header span {
+	font-size: 0.8em;
+	line-height: 16px;
+	color: #626262;
+	text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+}
+
+
+
+
+
+
+
+
+
+/* CONTENT */
+
+.registrering-form .content {
+	padding: 0 30px 25px 30px;
+}
+
+/* Input field */
+.registrering-form .content .input {
+	width: 188px;
+	padding: 15px 25px;
+	font-family: 'roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #9d9e9e;
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+	text-align: center;
+	
+}
+
+/* Second input field */
+.registrering-form .content .password, .registrering-form .content .pass-icon {
+	margin-top: 25px;
+}
+
+.registrering-form .content .input:hover {
+	background: #FFEAD0;
+	color: #444444;
+}
+
+.registrering-form .content .input:focus {
+	background: #FFEAD0;
+	color: #444444;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+	
+}
+
+.user-icon, .pass-icon {
+	width: 46px;
+	height: 47px;
+	display: block;
+	position: absolute;
+	left: 0px;
+	padding-right: 2px;
+	z-index: -1;
+	
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+
+.user-icon {
+	top:153px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
+	background: rgba(65,72,72,0.75) url(http://www.demo.amitjakhu.com/login-form/images/user-icon.png) no-repeat center;	
+}
+
+.pass-icon {
+	top:201px;
+	background: rgba(65,72,72,0.75) url(http://www.demo.amitjakhu.com/login-form/images/pass-icon.png) no-repeat center;
+}
+
+.content input:focus + div{
+	left: -46px;
+}
+
+/* Animation */
+.input, .user-icon, .pass-icon, .button, .register {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.registrering-form .footer {
+	padding: 25px 30px 40px 30px;
+	overflow: auto;
+	background: #FF7200;
+	border-top: 1px solid #fff;
+	border-radius: 0 0px 15px 15px;
+}
+
+/* registrering button */
+.registrering-form .footer .button {
+	padding: 18px 56px;
+	font-family: 'roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 1.1em;
+	color: #fff;
+	background: #FF7200;
+	border: 2px solid #FFB579;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.registrering-form .footer .button:hover {
+	background: #DD6200;
+	border: 2px solid white;
+}
+
+.registrering-form .footer .button:focus {
+	position: relative;
+	bottom: -3px;
+	background: #DD6200;
+	-webkit-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	-moz-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	
+}
+
+.footer p {
+	padding: 0;
+	text-align: center;
+	font-size: 0.85em;
+	margin-top: 30px;
+	color: white;
+}
+
+.footer p a {
+	color: white;
+	font-weight: bold;
+}
+
+
